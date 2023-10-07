@@ -9,7 +9,7 @@ public class AmazonLoginPage {
 		String pw = "yourpw";
 		
         	driver.findElement(By.id("ap_email")).sendKeys(email);  
-          driver.findElement(By.id("Continue")).click();
+                driver.findElement(By.id("Continue")).click();
         	driver.findElement(By.id("ap_password")).sendKeys(pw);       
         	driver.findElement(By.id("signInSubmit")).click();
         

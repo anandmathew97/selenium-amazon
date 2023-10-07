@@ -5,7 +5,7 @@ public class HomePage {
 	
 	public void searchItem(WebDriver driver) {
 		
-        	driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Iphone");
+        	driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Iphone 12 Mini");
         	driver.findElement(By.className("nav-input")).click();
         
 	}

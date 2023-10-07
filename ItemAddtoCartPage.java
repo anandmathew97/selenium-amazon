@@ -1,7 +1,7 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class ItemAddedtoCart {
+public class ItemAddtoCartPage {
 	
 	public void addToWishlist(WebDriver driver){
 		
